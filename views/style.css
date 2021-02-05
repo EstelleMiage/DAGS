@@ -1,0 +1,271 @@
+/*FEUILLE DE STYLE CSS*/
+
+body {
+    font-family: Arial;
+    background-color: #e6e6e6;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+input[type="button"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    font-size: 13px;
+    margin-left : -315px;
+    border: none;
+    border-radius: 20px;
+    width: 75px;
+}
+
+div#searchForm, div#home, div#newfile {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+}
+
+div#container {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+}
+
+div#signIn {
+    margin: 10px auto;
+    margin-top: 100px;
+    width: 450px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #bbb;
+}
+
+div#option {
+    width: 400 px;
+}
+
+input#option {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    font-size: 13px;
+    margin-left : 2px;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+}
+
+#patientresult {
+    margin-left: 510px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    text-align: center;  
+    margin-top: -470px;  
+}
+
+#inforesult {
+    margin-left: 510px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    text-align: center;  
+    margin-top: -426px;  
+}
+
+#searchPatient {
+    margin-left: 30px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    text-align: center;  
+    margin-top: 5px;
+}
+
+section {
+    /*border: 1px solid #bbb;*/
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 15px;
+    color: #666666;
+    text-align: left;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 19px;
+    color: black;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 25px;
+    background-color:  #333;
+    color: white;
+    font-size: 0.9em;
+    margin: 10px auto;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: block;
+}
+
+a {
+    margin: 8px;
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a#details {
+    margin: 8px;
+    color:rgb(49, 49, 49);
+    font-size: 10px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+p {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+    width: auto;
+    border-radius: 15px;
+}
+
+li a {
+    float: left;
+    font-size: 15px;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 9px 20px;
+    text-decoration: none;
+}
+
+li#logout a {
+    float: right;
+    font-size: 15px;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 9px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    border-radius: 15px;
+}
+
+input {
+    width: 355px;
+}
+
+div#error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    padding: 10px;
+    border-radius: 15px;
+    width: 450px;
+    margin-left: 440px;
+}
+
+div#success {
+    color: #270;
+    background-color: #DFF2BF;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+table#patients {
+    border-collapse: collapse;
+    width: 95%;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+table#patients td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+table#patients th {
+    padding: 7px;
+    border-bottom: 2px solid #ddd;
+}
+
+hr {
+    size: 1;
+    margin-bottom: 30px;
+}
+
+table#infos{
+    border-collapse: collapse;
+    width: 70%;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 120px;
+    margin-right: auto;
+    display: inline-flex;
+    margin-bottom: 20px;
+  }
+
+table#form{
+    border-collapse: collapse;
+    width: 65%;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 120px;
+    margin-right: auto;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+#searchPatient {
+    margin-left: 30px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+    text-align: center;  
+    margin-top: 5px;
+    border-radius: 15px;
+}
