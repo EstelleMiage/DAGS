@@ -88,7 +88,7 @@ $json = curl_exec($ch);
 //SI LA REQUETE S'EST EXECUTÉE, ENVOI D'UN MESSAGE DE SUCCÉS
 //SINON, ENVOI D'UN MESSAGE D'ERREUR
 if (isset($json)) {
-    $msg = "Patient crée";
+    $msg = "Patient créé";
     $success = urldecode($msg);
     header ('location: ../ajout_patient.php?success='.$success);
     exit();
